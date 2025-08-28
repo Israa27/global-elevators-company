@@ -1,0 +1,83 @@
+{
+   "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "projects":"Iconic Projects",
+    "about_us": "News",
+    "contact_us": "Contact Us",
+    "get_guote":"Get a Quote",
+    "create_your_lift": "Create Your lift"
+  },
+   "hero": {
+    "title": "Innovative & Reliable Elevator Solutions",
+    "subtitle": "We provide cutting-edge elevator technologies to meet residential and commercial needs.",
+    "button": "Learn More"
+  },
+  
+  "services": {
+    "title": "Our Elevator Services",
+    "subtitle": "We provide high-quality elevator solutions tailored to meet your needs, from installation to maintenance, ensuring safety, reliability, and efficiency.",
+    "items": {
+      "installation": {
+        "title": "Elevator Installation",
+        "desc": "Expert installation for residential, commercial, and industrial buildings."
+      },
+      "maintenance": {
+        "title": "Maintenance & Repairs",
+        "desc": "Regular check-ups and fast repair services to keep your elevators running smoothly."
+      },
+      "modernization": {
+        "title": "Modernization",
+        "desc": "Upgrade your existing elevator systems for improved performance and safety."
+      },
+      "consulting": {
+        "title": "Consulting Services",
+        "desc": "Professional advice to help you choose the right elevator system for your project."
+      }
+    }
+  },
+  
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Take a look at some of our recent projects that showcase our expertise and commitment to quality.",
+    "items": [
+      {
+        "title": "Residential Elevator Installation",
+        "desc": "Delivering smooth and safe home elevator solutions tailored to modern living spaces."
+      },
+      {
+        "title": "Commercial Lift Systems",
+        "desc": "High-capacity lifts designed for office buildings, malls, and large-scale facilities."
+      },
+      {
+        "title": "Modernization & Upgrades",
+        "desc": "Upgrading old elevator systems with the latest technology for efficiency and safety."
+      }
+    ]
+  },
+
+
+   "footer": {
+    "description": "At our Office we believe that justice is a right for all.",
+    "company": "Quick Links",
+    "contact": "Contact Us",
+   "links": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services"
+   
+  },
+    "contactList": {
+      "email": "Email: info@company.com",
+      "phone": "Phone: +123 456 789",
+      "address": "Address: 123 Main Street, City, Country",
+      "website":"Website: www.company.com"
+    },
+    "policies": "Policies",
+    "policyLinks": ["Privacy Policy", "Terms of Service", "Insurance Policy"],
+    "apps": "Mobile Apps",
+    "social": "Join Us",
+    "copyright": "Copyright ©{{year}} Powered by Tashkeel."
+  }
+
+}
