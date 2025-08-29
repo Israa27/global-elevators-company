@@ -53,7 +53,7 @@ const Navbar = forwardRef(() => {
                 data-testid={`navbar-link-${links.id}`} 
                 className={`inline-block py-1 px-1 
                 font-semibold ${i18n.language === 'ar' ? 'text-xl' : 'text-[12px]'}
-                 hover:text-teal-600 transition-all cursor-pointer`}>
+                 hover:text-[#012948] transition-all cursor-pointer`}>
                 {links.title}
               </Link>
             ) : links.type === 'external' ? (
@@ -63,7 +63,7 @@ const Navbar = forwardRef(() => {
                 rel="noopener noreferrer"
                 className={`inline-block py-1 px-1 
                 font-semibold ${i18n.language === 'ar' ? 'text-xl' : 'text-[12px]'}
-                 hover:text-teal-600 transition-all cursor-pointer`}>
+                 hover:text-[#012948] transition-all cursor-pointer`}>
                 {links.title}
               </a>
             ) : (
@@ -73,7 +73,7 @@ const Navbar = forwardRef(() => {
                 className={`inline-block py-1 px-1 
                 font-semibold ${i18n.language === 'ar' ? 'text-xl' : 'text-[12px]'}
 
-                 hover:text-teal-600 transition-all cursor-pointer`}>
+                 hover:text-[#012948] transition-all cursor-pointer`}>
                 {links.title}
               </button>
             )}
@@ -128,7 +128,7 @@ const Navbar = forwardRef(() => {
                 data-testid={`Hamburger-link-${links.id}`} 
                 className={`inline-block py-1 px-1 
                 font-semibold ${i18n.language === 'ar' ? 'text-xl' : 'text-[12px]'}
-                 hover:text-teal-600 transition-all cursor-pointer`}>
+                 hover:text--[#012948] transition-all cursor-pointer`}>
                 {links.title}
               </Link>
             ) : links.type === 'external' ? (
@@ -138,7 +138,7 @@ const Navbar = forwardRef(() => {
                 rel="noopener noreferrer"
                 className={`inline-block py-1 px-1 
                 font-semibold ${i18n.language === 'ar' ? 'text-xl' : 'text-[12px]'}
-                 hover:text-teal-600 transition-all cursor-pointer`}>
+                 hover:text-[#012948] transition-all cursor-pointer`}>
                 {links.title}
               </a>
             ) : (
@@ -147,7 +147,7 @@ const Navbar = forwardRef(() => {
                 onClick={() => handleScroll(links.link)} 
                 className={`inline-block py-1 px-1 
                 font-semibold ${i18n.language === 'ar' ? 'text-xl' : 'text-[12px]'}
-                 hover:text-teal-600 transition-all cursor-pointer`}>
+                 hover:text-[#012948] transition-all cursor-pointer`}>
                 {links.title}
               </button>
             )}

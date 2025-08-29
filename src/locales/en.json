@@ -55,8 +55,16 @@
       }
     ]
   },
+"about": {
+    "title": "About Us",
+    "subtitle": "we specialize in providing innovative and reliable elevator solutions tailored to meet the highest safety and quality standards. With a commitment to excellence, we strive to enhance mobility and improve experiences for our clients in residential, commercial, and industrial spaces."
 
+},
+"contact": {
+    "title": "Contcat Us",
+    "subtitle": "For inquiries or a quote, we’re here to help. Fill the form or contact us directly:"
 
+},
    "footer": {
     "description": "At our Office we believe that justice is a right for all.",
     "company": "Quick Links",

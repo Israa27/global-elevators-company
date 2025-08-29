@@ -6,7 +6,7 @@ export default function ProjectsSection() {
   const { t } = useTranslation();
   const projects = t("projects.items", { returnObjects: true });
   return (
-    <div className=' mx-10 '>
+    <section id='projects' className=' mx-10 '>
        <div className='mb-10' >
             <h2 className='text-3xl font-bold'>{t("projects.title")}</h2>
             <p className='w-80'>{t("projects.subtitle")}</p>
@@ -41,6 +41,6 @@ export default function ProjectsSection() {
               </div>
       </div>
     
-    </div>
+    </section>
   )
 }

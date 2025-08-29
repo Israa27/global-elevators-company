@@ -31,7 +31,7 @@ export default function ServicesSection() {
   ];
 
   return (
-    <div className='flex  mt-10 mb-24  '>
+    <section id='services' className='flex  mt-10 mb-24  '>
       <div className='flex w-full flex-row justify-between '>
         <div >
           <h2 className='text-3xl font-bold'>{t("services.title")}</h2>
@@ -78,6 +78,6 @@ export default function ServicesSection() {
         </div>
              </div>
       </div>
-    </div>
+    </section>
   )
 }
