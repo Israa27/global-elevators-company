@@ -84,12 +84,12 @@ const Navbar = forwardRef(() => {
       {/* Buttons Section */}
       
       <div className='relative hidden md:flex gap-2'>
-        <a href='https://wa.me/9647702321705' target='_blank' className={`text-[#022138] hover:text-white rounded-md 
+        <a href='' target='_blank' className={`text-[#022138] hover:text-white rounded-md 
         ${i18n.language === 'ar' ? 'text-xl' : 'text-[14px]'}
         bg-transparent   border border-[#022138] px-6 py-2 duration-200 hover:bg-[#022138]  hidden md:block`}>
          {t('navbar.get_guote')}
         </a>
-        <a href='https://wa.me/9647702321705' target='_blank' className={`text-neutral-50 rounded-md 
+        <a href='http://localhost:5173/create_your_elevator' target='_blank' className={`text-neutral-50 rounded-md 
         ${i18n.language === 'ar' ? 'text-xl' : 'text-[14px]'}
         bg-[#022138] px-6 py-2 duration-200 hover:bg-[#075fa3]  hidden md:block`}>
          {t('navbar.create_your_lift')}
