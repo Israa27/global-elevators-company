@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import generalImg from '../../assets/elevator/cabins-home.jpg';
 import hotelImg from '../../assets/elevator/cabins-hotel.jpg';
-import villaImg from '../../assets/elevator/cabins-home.jpg';
+import villaImg from '../../assets/elevator/villa-ca.jpg';
 import officeImg from '../../assets/elevator/cabins-office.jpg';
+import RightSideBtns from './RightSideBtns';
 
 export default function CabinsDesign({ cabin }) {
   const type = ["General", "Hotel Lobby", "Villa", "Office"];
@@ -19,11 +20,12 @@ export default function CabinsDesign({ cabin }) {
   };
 
   return (
-    <div className="flex flex-col md:flex-row ">
-      <div className="lg:w-[60%]  md:w-1/2 mt-36">
+    <div className="flex flex-col md:flex-row overflow-hidden">
+      <RightSideBtns/>
+      <div className="lg:w-[56%]  md:w-1/2 mt-36">
         <h5 className="font-bold text-4xl ml-14 mb-10">{cabin.name}</h5>
 
-        <div>
+        <div className=' '>
           <span className="font-bold text-xl ml-14">Environment</span>
           <div className="ml-14 flex flex-row flex-wrap mt-4">
             {type.map((item) => (
@@ -42,14 +44,20 @@ export default function CabinsDesign({ cabin }) {
       
       </div>
 
-      <div className="lg:w-[100%] h-[77vh] md:w-1/2 flex justify-center items-start mt-8 md:mt-0">
-        <img src={currentImg} alt={cabin.name} className="w-full h-auto object-cover " />
-        <img
-          src={cabin.img}
-          alt="Elevator cabin"
-          className=" absolute lg:w-[38.2%] right-[-1px] top-[-92px] md:w-1/2 flex justify-center items-start mt-8 md:mt-0"
-        />
-      </div>
+      <div className="lg:w-[100%] md:w-1/2 h-screen relative flex justify-center items-start mt-8 md:mt-0">
+  <img 
+    src={currentImg} 
+    alt={cabin.name} 
+    className="w-full h-full object-cover" 
+  />
+
+  <img
+    src={cabin.img}
+    alt="Elevator cabin"
+    className="absolute w-[81%] h-[140vh] top-[-21%] right-[-16%]"
+  />
+</div>
+
     </div>
   );
 }

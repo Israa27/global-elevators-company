@@ -4,17 +4,19 @@ import Welcome from "./Welcome";
 import Doors from "./Doors";
 import Cabins from "./Cabins";
 import CabinDesign from "./CabinsDesign";
+import DoorsDesign from "./DoorsDesign";
 
 export default function Container() {
   const [activeComponent, setActiveComponent] = useState("welcome");
   const [selectedCabin, setSelectedCabin] = useState(null);
-
+  const [selectedDoor, setSelectedDoor] = useState(null);
   const renderComponent = () => {
     switch (activeComponent) {
       case "welcome":
         return <Welcome />;
       case "doors":
-        return <Doors />;
+        return <Doors setSelectedDoor={setSelectedDoor} 
+            setActiveComponent={setActiveComponent}/>;
       case "cabins":
         return (
           <Cabins 
@@ -24,6 +26,8 @@ export default function Container() {
         );
       case "cabin-design":
         return <CabinDesign cabin={selectedCabin} />;
+          case "door-design":
+        return <DoorsDesign door={selectedDoor} />;
       default:
         return <Welcome />;
     }

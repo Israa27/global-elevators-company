@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { GiWeight } from "react-icons/gi";
 import { IoIosPeople } from "react-icons/io";
-import img1 from "../../assets/elevator/cabins1.png";
+import img1 from "../../assets/elevator/cabins5.png";
 import img2 from "../../assets/elevator/cabins2.png";
 import img3 from "../../assets/elevator/cabins3.png";
 import img4 from "../../assets/elevator/cabins4.png";

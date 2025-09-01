@@ -4,7 +4,7 @@ export default function Welcome() {
   return (
     <div className='min-h-screen '>
         <img src={img} className='w-[100%] h-[100vh] opacity-30' alt=''/>
-        <div className=" absolute px-4 py-4 w-[30%] h-[25vh] left-56 top-32 bg-white rounded shadow-sm">
+        <div className=" absolute px-4 py-4 w-[30%] h-[35%]  left-56 top-32 bg-white rounded shadow-sm">
         <span className="bg-white w-6 h-6  absolute -top-2 left-52 rotate-45"></span>
         <h3 className="font-bold text-2xl text-[#0E324D]">Welcome to Global Configurator</h3>
         <p className="text-gray-600 mt-2">Create your Lift! Please select a product.</p>

@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { GiWeight } from "react-icons/gi";
 import { IoIosPeople } from "react-icons/io";
-import img1 from "../../assets/elevator/doors1.jpg";
-import img2 from "../../assets/elevator/doors2.jpg";
-import img3 from "../../assets/elevator/doors3.jpg";
-import img4 from "../../assets/elevator/doors4.jpg";
+import img1 from "../../assets/elevator/doors1.png";
+import img2 from "../../assets/elevator/doors2.png";
+import img3 from "../../assets/elevator/doors3.png";
+import img4 from "../../assets/elevator/doors4.png";
 
-export default function Doors() {
+export default function Doors({setSelectedDoor,setActiveComponent}) {
     const doors = [
         {
           id: 1,
@@ -80,7 +80,12 @@ export default function Doors() {
                  <img
                    src={door.img}
                    alt={door.name}
-                   className="w-[200px] h-[250px] object-cover rounded mx-auto"
+                   onClick={() => {
+                setSelectedDoor(door); 
+                setActiveComponent("door-design"); 
+               
+            }}
+                   className="w-[200px] h-[250px] object-cover bg-[#eee] rounded mx-auto"
                  />
                  <h2 className="text-xl font-bold mt-4">{door.name}</h2>
                  <p className="text-lg mt-2 flex flex-row items-center">
